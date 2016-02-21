@@ -4,6 +4,7 @@ let mongo = require('mongodb');
 let client = mongo.MongoClient;
 let _db;
 
+
 module.exports = {
   connect() {
     client.connect('mongodb://localhost:27017/olympics-dev', (err, db) => {
