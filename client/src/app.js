@@ -6,6 +6,7 @@ angular.module('olympics', ["ui.router"])
   $urlRouterProvider.otherwise('/sports')
 
   $stateProvider
+  
   	//-----------------------------------------------------------------------//
     .state('sports', {
       url: '/sports',
